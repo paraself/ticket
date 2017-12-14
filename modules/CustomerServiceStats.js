@@ -205,7 +205,7 @@ export default class CustomerServiceStats extends React.Component {
   render() {
     return (
       <div>
-        <DocumentTitle title='统计 - LeanTicket' />
+        <DocumentTitle title='统计 - KeKeTicket' />
         <StatsSummary categories={this.state.categories} />
         <StatsChart categories={this.state.categories} />
       </div>

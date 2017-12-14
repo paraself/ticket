@@ -34,7 +34,7 @@ const getIndexPage = (uuid) => {
 <html>
 <meta charset=utf-8/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LeanTicket</title>
+<title>KeKeTicket</title>
 <link rel="stylesheet" href="/css/highlight.default.min.css">
 <link rel="stylesheet" href="/css/leancloud-base.css">
 <link rel="stylesheet" href="/css/react-datepicker.css">
@@ -74,5 +74,5 @@ app.use(Raven.errorHandler())
 
 var PORT = parseInt(process.env.LEANCLOUD_APP_PORT || process.env.PORT || 8080)
 app.listen(PORT, function() {
-  console.log('LeanTicket server running on:' + PORT)
+  console.log('KeKeTicket server running on:' + PORT)
 })
